@@ -1,0 +1,19 @@
+1. express구조로 폴더를 생성
+
+2. 필요한 프로그램을 설치(npm)
+ = express, mysql, ejs, session
+    package-json -> npm init -y
+    exrpess -> npm install express --save
+    mysql Connector -> npm install express mysql --save
+    ejs(템플릿엔진) -> npm install ejs --save
+    session -> npm install express-session --save
+    session저장공간mysql설정 -> npm install express-mysql-session --save
+
+3. 그 전 프로젝트에서 필요한 파일가져오기
+
+4. Main되는 파일설정(ejs) -> 라우터생성(ejs를 랜더링하기위해)
+
+5. 데이터가 저장될 Table생성(Web_member)
+
+6. 실행안되거나 오류날 때 터미널 오류창 확인하기
+
